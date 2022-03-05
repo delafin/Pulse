@@ -1,0 +1,38 @@
+.button{
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+
+	// display: block;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: $main-color;
+	border:none;
+	&:active{
+		background-color: darken($main-color, 5%)
+	}
+	&_header{
+		margin-top: 8px;
+	}
+	&_main{
+		margin-top: 67px;
+		width: 300px;
+		height: 50px;
+
+		font-size: 16px;
+		line-height: 16px;
+		text-align: center;
+	}
+	&_submit{
+		width: 300px;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
